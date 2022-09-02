@@ -1,0 +1,6 @@
+#TIL
+
+* 없는 숫자 더하기
+
+  includes 함수 : 배열에 값 포함 여부를 알려줌
+  배열.includes("값") = true or false
