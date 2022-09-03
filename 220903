@@ -1,0 +1,20 @@
+#TIL
+
+* 행렬의 덧셈
+
+  for(i=0; i<arr1.length; i++){
+        let sum = []
+        for(j=0; j<arr1[i].length; j++){
+            sum.push(arr1[i][j] + arr2[i][j]);
+        }
+        answer.push(sum);
+    }
+    
+    이중 for문으로 계산 후 값 push
+    
+    
+    var = 중복 선언 가능하여 예상치 못한 값 반환 가능성
+    
+    - ES6에서 해결
+    let = 중복 선언 불가, 변수 재할당 가능
+    const = 선언과 초기화 동시에 진행, 중복 선언과 재할당 불가
