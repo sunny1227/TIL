@@ -13,27 +13,3 @@
   
   sort 함수 : 배열 정렬
   숫자정렬 ary.sort((a,b)=>a-b) 오름차순, b-a 내림차순
-
-* 두 개 뽑아서 더하기
-
-  for(i=0; i<numbers.length; i++){
-        for(j=0; j<numbers.length; j++){
-            if(i != j){
-                sum.push(numbers[i]+numbers[j]);
-            }
-        }
-    }
-
-    sum = [...new Set(sum)];
-    answer = (sum.sort((a,b)=>a-b));
-    
-    이중 for문으로 i와 j가 같지 않을때만 더해 sum에 push
-    [...new Set(sum)]으로 중복 제거
-    sort로 정렬
-
-* 같은 숫자는 싫어
-
-  arr.filter((val,index) => val != arr[index+1]);
-  난 for문으로 풀었지만...
-  filter로 값 거를 수 있다
-  
