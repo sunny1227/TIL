@@ -1,0 +1,14 @@
+출처 : https://truehong.tistory.com/89  
+
+강의 : https://www.youtube.com/watch?v=NONWar0jGLM&list=PLfLgtT94nNq3Br68sEe26jkOqCPK_8UQ-&index=2  
+
+visual code 설치  
+node.js 설치(npm 사용 가능)  
+npm : 각종 웹개발 라이브러리 설치 도우미  
+터미널에 npm install -g @vue/cli (vue 프로젝트 빠르게 생성해주는 라이브러리)  
+프로젝트 생성 : vue create 프로젝트명  
+프로젝트 확인 : npm run serve  
+
+{{데이터바인딩}} 사용하면 실시간 자동 렌더링 됨  
+(캐시 지우고 새로고침 했던 지난 날들이 생각난다...)  
+HTML 속성도 데이터바인딩 가능 :속성="데이터이름"  
